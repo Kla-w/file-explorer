@@ -1,0 +1,14 @@
+{
+  "React typescript functional component": {
+    "prefix": "reactfc",
+    "body": [
+      "interface ${TM_FILENAME_BASE}Props {}",
+      "",
+      "export const ${TM_FILENAME_BASE}: React.FC<${TM_FILENAME_BASE}Props> = () => {",
+      "  return $0",
+      "}",
+      ""
+    ],
+    "description": "React typescript functional component"
+  }
+}
