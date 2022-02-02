@@ -35,10 +35,8 @@ const createWindow = (): void => {
 // Some APIs can only be used after this event occurs.
 app.on('ready', createWindow)
 
-const reactDevToolsPath = path.join(
-  os.homedir(),
-  'chrome-extensions/fmkadmapgofadopljbjfkapdkoienihi/4.23.0_0'
-)
+const reactDevToolsPath =
+  '/Users/hugo/Library/Application Support/Google/Chrome/Default/Extensions/fmkadmapgofadopljbjfkapdkoienihi/4.23.0_1'
 
 app.whenReady().then(async () => {
   await session.defaultSession.loadExtension(reactDevToolsPath)
